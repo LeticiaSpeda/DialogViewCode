@@ -12,6 +12,7 @@
 		E0838AD828CF5AF200B39F92 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = E0838AD728CF5AF200B39F92 /* ViewController.swift */; };
 		E0838ADD28CF5AF400B39F92 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = E0838ADC28CF5AF400B39F92 /* Assets.xcassets */; };
 		E0838AE028CF5AF400B39F92 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = E0838ADE28CF5AF400B39F92 /* LaunchScreen.storyboard */; };
+		E0A764D228EFAFE300E96571 /* Constants.swift in Sources */ = {isa = PBXBuildFile; fileRef = E0A764D128EFAFE300E96571 /* Constants.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -22,6 +23,7 @@
 		E0838ADC28CF5AF400B39F92 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		E0838ADF28CF5AF400B39F92 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		E0838AE128CF5AF400B39F92 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		E0A764D128EFAFE300E96571 /* Constants.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Constants.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -56,7 +58,7 @@
 		E0838AD228CF5AF200B39F92 /* dialog */ = {
 			isa = PBXGroup;
 			children = (
-				E0838AD728CF5AF200B39F92 /* ViewController.swift */,
+				E0A764D028EFAFA600E96571 /* Constants */,
 				E0838AE128CF5AF400B39F92 /* Info.plist */,
 			);
 			path = dialog;
@@ -78,6 +80,15 @@
 				E0838ADC28CF5AF400B39F92 /* Assets.xcassets */,
 			);
 			path = Assets;
+			sourceTree = "<group>";
+		};
+		E0A764D028EFAFA600E96571 /* Constants */ = {
+			isa = PBXGroup;
+			children = (
+				E0838AD728CF5AF200B39F92 /* ViewController.swift */,
+				E0A764D128EFAFE300E96571 /* Constants.swift */,
+			);
+			path = Constants;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -153,6 +164,7 @@
 				E0838AD828CF5AF200B39F92 /* ViewController.swift in Sources */,
 				E0838AD428CF5AF200B39F92 /* AppDelegate.swift in Sources */,
 				E0838AD628CF5AF200B39F92 /* SceneDelegate.swift in Sources */,
+				E0A764D228EFAFE300E96571 /* Constants.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -306,9 +318,12 @@
 				MARKETING_VERSION = 1.0;
 				PRODUCT_BUNDLE_IDENTIFIER = br.com.spedaLeticia.dialog;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator";
+				SUPPORTS_MACCATALYST = NO;
+				SUPPORTS_MAC_DESIGNED_FOR_IPHONE_IPAD = NO;
 				SWIFT_EMIT_LOC_STRINGS = YES;
 				SWIFT_VERSION = 5.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
+				TARGETED_DEVICE_FAMILY = 1;
 			};
 			name = Debug;
 		};
@@ -334,9 +349,12 @@
 				MARKETING_VERSION = 1.0;
 				PRODUCT_BUNDLE_IDENTIFIER = br.com.spedaLeticia.dialog;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator";
+				SUPPORTS_MACCATALYST = NO;
+				SUPPORTS_MAC_DESIGNED_FOR_IPHONE_IPAD = NO;
 				SWIFT_EMIT_LOC_STRINGS = YES;
 				SWIFT_VERSION = 5.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
+				TARGETED_DEVICE_FAMILY = 1;
 			};
 			name = Release;
 		};
